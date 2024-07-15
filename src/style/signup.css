@@ -1,0 +1,9 @@
+#role{
+    width: 410px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    padding: 5px;
+}

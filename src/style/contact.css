@@ -1,0 +1,84 @@
+.contact-main{
+    padding: 10px 15px;
+    background-color: #ececec;
+}
+
+.contact-grid{
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-grid-1{
+    margin: 5px 10px;
+}
+
+.contact-grid-1 button{
+    background-color: orange;
+    border-radius: 14px;
+    border: 2px solid white;
+}
+
+.contact-grid-1 a{
+    font-size: medium;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-grid-1 h2{
+    padding: 0 10px 0 5px;
+    color: rgb(73, 105, 232);
+    font-size: 40px;
+}
+
+
+.contact-grid-1 p{
+    display: block;
+    font-size: 20px;
+}
+
+.logo{
+    margin: 5px;
+}
+
+.div-form h3{
+    float: center;
+    color: black;
+    font-size: 20px;
+}
+
+.div-form hr{
+    display: inline-block;
+    border: 2px solid yellowgreen;
+    width: 75px;
+}
+
+.div-form label{
+    font-size: 21px;
+    margin: 10px 0px 10px 0px;
+    display: block;
+}
+
+.div-form input{
+    display: block;
+    width: 400px;
+    height: 25px;
+}
+
+.form-main button{
+    color: white;
+    margin-top: 25px;
+    background-color: orange;
+    border-radius: 14px;
+    border: 2px solid white;
+    width: 150px;
+    font-weight: bold;
+}
+
+.div-form button:hover{
+    cursor: pointer;
+}

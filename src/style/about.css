@@ -1,0 +1,82 @@
+.container{
+    background-color: #ececec;
+    height: fit-content
+}
+
+::selection{
+    background-color: white;
+}
+
+.div-main-1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+    gap: 1rem;
+    padding: 1.5rem 1.5rem;
+}
+
+.div-main-1 h2{
+    padding: 0 15px 0 5px;
+    color: black;
+    font-size: 40px;
+}
+
+.div-main-1 hr{
+    float: center;
+    border: 5px solid yellowgreen;
+    width: 150px;
+}
+
+.div-main-1 p{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.div-main-1 button{
+    margin: 0 auto;
+    background-color: orange;
+    display: block;
+    padding: 1rem;
+    border-radius: 14px;
+    margin-top: 5px;
+    border: 2px solid white;
+}
+
+a{
+    font-size: medium;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+.grid{
+    margin: 0px 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.div-grid-img img{
+    border: 2px solid #ececec;
+    border-radius: 20px;
+    margin: 15px;
+    width: 82%;
+    padding-top: 10px;
+}
+
+.div-grids h2{
+    padding: 0 15px 0 5px;
+    color: black;
+    font-size: 40px;
+}
+
+.div-grids hr{
+    float: center;
+    border: 5px solid yellowgreen;
+    width: 150px;
+}
+
+.div-grids p{
+    display: inline-block;
+    font-size: 20px;
+}

@@ -1,0 +1,208 @@
+.div-main{
+    background-color: #ececec;
+    height: fit-content
+}
+::selection{
+    background-color: white;
+}
+.div1{
+    position: relative;
+    background-image: url("../img/patient-doctor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    justify-content: left;
+    align-items: left;
+    /* text-align: center; */
+    padding: 30px;
+    height: 50vh;
+}
+
+.div1 h2{
+    padding: 0 15px 0 5px;
+    color: rgb(73, 105, 232);
+    font-size: 40px;
+}
+
+button{
+    background-color: orange;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 14px;
+    margin-top: 5px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    font-size: medium;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+.div-feature{
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    display: flex;
+}
+
+.feature-1{
+    padding: 2rem;
+    width: 33.3%;
+    background-color: rgb(231, 114, 114);
+}
+
+.feature-2{
+    padding: 2rem;
+    width: 33.3%;
+    background-color: rgb(238, 238, 68);
+}
+
+.feature-3{
+    padding: 2rem;
+    width: 33.3%;
+    background-color: rgb(135, 233, 135);
+}
+
+.div-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.div-grid-1{
+    margin: 20px 10px 20px 10px;
+    gap: 1rem;
+    padding: 1.5rem 1.5rem;
+}
+
+.div-grid-1 h2{
+    padding: 0 15px 0 5px;
+    color: black;
+    font-size: 40px;
+}
+
+.div-grid-1 hr{
+    float: left;
+    border: 5px solid yellowgreen;
+    width: 150px;
+}
+
+.div-grid-1 p{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.div-grid-2{
+    margin: 20px 10px 20px 10px;
+    border: 2px solid rgb(196, 193, 193);
+    border-radius: 30px;
+    background-image: url("../img/appointment.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-grid-3{
+    margin: 20px 0px 20px 10px;
+    border: 2px solid rgb(196, 193, 193);
+    border-radius: 30px;
+    background-image: url("../img/signal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-grid-black{
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #222831;
+}
+
+.div-grid-black img{
+    border: 2px solid #222831;
+    border-radius: 10px;
+    margin: 10px;
+    width: 82%;
+    padding-top: 10px;
+}
+
+.div-grid-black-1 h2{
+    padding: 0 15px 0 5px;
+    color: white;
+    font-size: 40px;
+} 
+
+.div-grid-black-1 hr{
+    float: left;
+    border: 5px solid yellowgreen;
+    width: 150px;
+} 
+
+.div-grid-black-1 p{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+} 
+
+.div-grid-column-3{
+    padding: 20px 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.div-card{
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: #273c5b;
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.div-grid-1-center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-grid-1-center h2{
+    padding: 0 15px 0 5px;
+    color: black;
+    font-size: 40px;
+}
+
+.div-grid-1-center hr{
+    border: 5px solid yellowgreen;
+    width: 150px;
+}
+
+.div-grid-1-center p{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.div-card h2{
+    padding: 0 auto;
+    color: white;
+    font-size: 40px;
+}
+
+.div-card p{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
